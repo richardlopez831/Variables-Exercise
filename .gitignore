@@ -1,0 +1,40 @@
+# Build output
+bin/
+obj/
+
+# Visual Studio / Rider
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+*.lock.json
+!packages.lock.json
+project.lock.json
+nuget.config
+
+# Rider
+.idea/
+
+# MSBuild
+*.binlog
+
+# .NET CLI
+.dotnet/
+
+# OS-generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.temp
